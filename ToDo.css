@@ -1,0 +1,63 @@
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  column-gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Ensure the todo app takes up the full height of the viewport */
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: rgb(9, 244, 9);
+}
+.add {
+  margin-left: 10px; /* Add margin left for spacing */
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+input::placeholder {
+  font-size: 20px;
+}
+input[type="text"] {
+  width: 70%;
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 20px;
+}
+button {
+  padding: 8px 20px;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 5px;
+  border: none;
+  background-color: green;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: rgb(80, 130, 79);
+}
+
+.delete-button {
+  color: red; /* Set the color to red */
+  background-color: transparent; /* Remove background color */
+  border: none; /* Remove border */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+.delete-button:hover {
+  background-color: rgb(127, 35, 35);
+}
